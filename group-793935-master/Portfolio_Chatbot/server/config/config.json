@@ -1,0 +1,38 @@
+{
+  "development": {
+      "username": "root",
+      "password": "root",
+      "database": "Portfolio",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "dialectOptions": {
+          "socketPath":"/Applications/MAMP/tmp/mysql/mysql.sock",
+          "supportBigNumbers": true,
+          "bigNumberStrings": true
+        }
+  },
+  "test": {
+      "username": "root",
+      "password": "root",
+      "database": "Portfolio",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "dialectOptions": {
+          "socketPath":"/Applications/MAMP/tmp/mysql/mysql.sock",
+          "supportBigNumbers": true,
+          "bigNumberStrings": true
+        }
+  },
+  "production": {
+      "username": "root",
+      "password": "root",
+      "database": "Portfolio",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "dialectOptions": {
+          "socketPath":"/Applications/MAMP/tmp/mysql/mysql.sock",
+          "supportBigNumbers": true,
+          "bigNumberStrings": true
+        }
+  }
+}
